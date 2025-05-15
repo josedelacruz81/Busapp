@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/rutasprincipales"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:backgroundTint="#00AC11"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17000002"
+        app:srcCompat="@drawable/buses"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cop"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rutasprincipales"
+        app:layout_constraintEnd_toEndOf="@+id/rutasprincipales"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/rutasprincipales"
+        app:layout_constraintTop_toTopOf="@+id/rutasprincipales"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <ImageButton
+        android:id="@+id/paradasmapa"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00AC11"
+        android:scaleType="fitStart"
+        android:tint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rutasprincipales"
+        app:layout_constraintVertical_bias="0.43"
+        app:srcCompat="@drawable/mapa"
+        tools:ignore="SpeakableTextPresentCheck,UseAppTint"
+        android:contentDescription="@string/paradas" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conr"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/paradasmapa"
+        app:layout_constraintEnd_toEndOf="@+id/paradasmapa"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/paradasmapa"
+        app:layout_constraintTop_toTopOf="@+id/paradasmapa"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inf6"
+        android:textColor="#7E7777"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/rutasprincipales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

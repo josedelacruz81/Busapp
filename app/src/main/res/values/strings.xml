@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BUSAPP</string>
+    <string name="COOPPO">COOP. PORTOVIEJO</string>
+    <string name="COOPPI">COOP. PICOAZÁ</string>
+    <string name="COOPH">COOP. HIGUERON</string>
+    <string name="COOPC">COOP. CIUDAD DEL VALLE</string>
+    <string name="conr">PARADAS</string>
+    <string name="cop">COOP/RUTAS</string>
+    <string name="inf6">Elija una de las siguientes opciones</string>
+    <string name="inf">Consulte el bus mas conveniente a su destino</string>
+    <string name="cpi">Escoja la ruta a consultar</string>
+    <string name="na">Ruta 1</string>
+    <string name="nb">Ruta 2</string>
+    <string name="nc">Ruta 3</string>
+    <string name="nd">Ruta 4</string>
+    <string name="ne">Ruta 5</string>
+    <string name="nf">Ruta 6</string>
+    <string name="title_activity_maprut">maprut</string>
+    <string name="Normal">Normal</string>
+    <string name="satelite">Satelite</string>
+    <string name="paradas">Paradas</string>
+    <string name="title_activity_maprut2">maprut2</string>
+    <string name="volver">Volver</string>
+</resources>
